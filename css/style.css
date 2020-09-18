@@ -33,12 +33,11 @@ nav ul li {
     display: inline;
     right: 20px;
 }
-
 #nav-bar {
     display: inline-block;
     /* float: right; */
     /* margin-top: 28px; */
-    margin-left: 52%;
+    margin-left: 62%;
 }
 #rss-icon{
     padding-left: 15px;
@@ -80,9 +79,10 @@ h2{
 }
 .recipe p {
     text-indent: 30px;
+    font-size: large;
 }
 .checkbox-lists{
-    background: url(/img/list-bg.png) bottom center no-repeat;
+    background: url(../img/list-bg.png) bottom center no-repeat;
     height: 300px;
     position: relative;
 }
@@ -97,10 +97,10 @@ h2{
     margin-top: 15px;
 }
 #left{
-    margin-left: 180px;
+    margin-left: 300px;
 }
 #right{
-    margin-left: 300px;
+    margin-left: 200px;
 }
 .checkbox-lists article input:checked + label {
     text-decoration: line-through;
@@ -108,7 +108,7 @@ h2{
 
 .hr{
     display: block;
-    background: url(/img/hr-img.png);
+    background: url(../img/hr-img.png);
     background-repeat: repeat-x;
     background-size: 5px;
     margin-top: 20px;
