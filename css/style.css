@@ -1,10 +1,12 @@
 header {
     background-color: white;
-    width: 100%;
-    position: fixed;
+    width: 92%;
+    position: absolute;
     padding-bottom: 10px;
     top: 0;
     height: 100px;
+    margin-right: 4%;
+    margin-left: 4%;
 }
 header section {
     display: inline-block;
@@ -31,16 +33,20 @@ nav ul li {
     display: inline;
     right: 20px;
 }
-#nav-bar{
-    float:right;
-    margin-top: 28px;
-    margin-right: 5px;
+
+#nav-bar {
+    display: inline-block;
+    /* float: right; */
+    /* margin-top: 28px; */
+    margin-left: 52%;
 }
 #rss-icon{
     padding-left: 15px;
 }
 main{
-    margin-top:150px;;
+    margin-top:150px;
+    margin-right: 4%;
+    margin-left: 4%;
 }
 h1{
     font-family: 'Francois One', sans-serif;
@@ -76,27 +82,25 @@ h2{
     text-indent: 30px;
 }
 .checkbox-lists{
-    background-image: url(/img/list-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url(/img/list-bg.png) bottom center no-repeat;
     height: 300px;
-    /* background-position: 50% 50%; */
+    position: relative;
 }
 .checkbox-lists article{
     display: inline-block;
-    padding-top: 50px;
-}
-.checkbox-lists article label{
-    padding-bottom: 20px;
-}
+    padding-top: 25px;
+    font-size: medium;
+    padding-bottom: 50px;
 
+}
+.checkbox-lists article input {
+    margin-top: 15px;
+}
 #left{
-    margin-left: 150px;
-    font-size: x-large;
+    margin-left: 180px;
 }
 #right{
     margin-left: 300px;
-    font-size: x-large;
 }
 .checkbox-lists article input:checked + label {
     text-decoration: line-through;
@@ -106,8 +110,12 @@ h2{
     display: block;
     background: url(/img/hr-img.png);
     background-repeat: repeat-x;
-    background-size: 10px;
+    background-size: 5px;
     margin-top: 20px;
+}
+footer{
+    padding-right: 4%;
+    padding-left: 4%;
 }
 #vanessa{
     display: inline;
